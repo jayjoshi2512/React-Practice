@@ -1,0 +1,10 @@
+h1 {
+    display: block;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
