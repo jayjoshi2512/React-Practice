@@ -5,6 +5,7 @@ import ArrayPractice from './components/ArrayPractice';
 import ThemeToggle from './components/ThemeToggle';
 import Task_01_Likes from './components/Task_01_Likes';
 import Task_02_IDCard from './components/Task_02_IDCard';
+import Task_03_Bulb from './components/Task_03_Bulb';
 
 const App = () =>{
     return (
@@ -14,9 +15,10 @@ const App = () =>{
             {/* <ArrayPractice /> */}
             {/* <ThemeToggle /> */}
             {/* <Task_01_Likes /> */}
-            <Task_02_IDCard name="Stark" role="Engineer" age={45} />
+            {/* <Task_02_IDCard name="Stark" role="Engineer" age={45} />
             <Task_02_IDCard name="Rogers" role="Captain" age={95} />
-            <Task_02_IDCard name="Banner" role="Scientist" age={50} />
+            <Task_02_IDCard name="Banner" role="Scientist" age={50} /> */}
+            <Task_03_Bulb />
         </div>
     )
 }
