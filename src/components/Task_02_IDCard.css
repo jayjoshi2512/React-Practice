@@ -1,0 +1,25 @@
+body {
+    background-color:rgba(6, 37, 61, 0.948);
+    color: white;
+}
+
+.card {
+    background-color: rgba(20, 60, 92, 0.892);
+    border: 1px solid white;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card.Captain {
+    background-color: blue;
+}
+
+.card.Engineer {
+    background-color: red;
+}
+
+.card.Scientist {
+    background-color: green;
+}
