@@ -6,8 +6,17 @@ import ThemeToggle from './components/ThemeToggle';
 import Task_01_Likes from './components/Task_01_Likes';
 import Task_02_IDCard from './components/Task_02_IDCard';
 import Task_03_Bulb from './components/Task_03_Bulb';
+import TextAnalyzer from './components/TextAnalyzer';
+import PasswordCheck from './components/PasswordCheck';
+import Converter from './components/Converter';
 
 const App = () =>{
+
+    // const data = [
+    //     {name: "Stark", role: "Engineer", age: 45},
+    //     {name: "Rogers", role: "Captain", age: 95},
+    //     {name: "Banner", role: "Scientist", age: 50},
+    // ];
     return (
         <div>
             {/* <Counter /> */}
@@ -15,10 +24,21 @@ const App = () =>{
             {/* <ArrayPractice /> */}
             {/* <ThemeToggle /> */}
             {/* <Task_01_Likes /> */}
-            {/* <Task_02_IDCard name="Stark" role="Engineer" age={45} />
-            <Task_02_IDCard name="Rogers" role="Captain" age={95} />
-            <Task_02_IDCard name="Banner" role="Scientist" age={50} /> */}
-            <Task_03_Bulb />
+            {/* {data.map((p, index) => (
+                <Task_02_IDCard 
+                    key={index}
+                    name={p.name} 
+                    role={p.role} 
+                    age={p.age} 
+                />
+            ))} */}
+            {/* <Task_03_Bulb /> */}
+
+            {/* <TextAnalyzer /> */}
+
+            {/* <PasswordCheck /> */}
+
+            <Converter />
         </div>
     )
 }
