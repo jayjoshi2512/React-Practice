@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Task_01_Likes = () => {
 
@@ -9,6 +10,11 @@ const Task_01_Likes = () => {
 
     return (
         <div>
+            <div className='flex gap-4'>
+                <Link to="/" className='text-2xl'>Footer</Link>
+                <Link to="/id-card" className='text-2xl'>ID</Link>
+                <Link to="/bulb" className='text-2xl'>Bulb</Link>
+            </div>
             <h1>My Photo App</h1>
             <div className="card">
                 <img src="https://via.placeholder.com/150" alt="Placeholder" />
